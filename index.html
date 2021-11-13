@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing</title>
+	<link href="styles.css" rel="stylesheet" />
+	<link 
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+</head>
+<body>
+<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="https://upload.wikimedia.org/wikipedia/fr/7/7f/Republic_of_Gamers_logo.png"
+        alt="ROG logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>The ultimate gaming comfort.</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="features">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+        <div class="desc">
+          <h2>Best Gaming Experience</h2>
+          <p>
+            Ergonomic optical gaming mouse optimized for FPS featuring push-fit switch socket design, Aura RGB lighting with Aura Sync-support and DPI target button
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+        <div class="desc">
+          <h2>Fast Shipping</h2>
+          <p>
+            We make sure to deliver your purchases as soon as items ordered were rendered and confirmed for assurance of both parties.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon">
+          <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        </div>
+        <div class="desc">
+          <h2>Quality of Life</h2>
+          <p>
+            ROG gaming mice feature high-end optical sensors to deliver the speed and precision you need to keep the competition in your sights.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="how-it-works">
+      <iframe
+        id="video"
+        height="315"
+        src="https://www.youtube-nocookie.com/embed/SVbM1YUJKiE?rel=0&amp;controls=0&amp;showinfo=0"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <section id="pricing">
+      <div class="product" id="gladius">
+        <div class="level">ROG Gladius III</div>
+        <h2>$119.99</h2>
+        <ol>
+          <li>USB 2.0</li>
+          <li>19,000 dpi optical sensor (ROG tuned up to 26,000 dpi)</li>
+          <li>1000 Hz</li>
+          <li>
+123mm x 68mm x 44mm</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="chakram">
+        <div class="level">ROG Chakram</div>
+        <h2>$159.99</h2>
+        <ol>
+          <li>USB 2.0 / Bluetooth</li>
+          <li>100~16000 DPI</li>
+          <li>1000 Hz</li>
+          <li>132.7 x 76.6 x 42.8 mm</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">ROG Pugio II</div>
+        <h2>$139.99</h2>
+        <ol>
+          <li>USB 2.0 / Bluetooth</li>
+          <li>16000 dpi</li>
+          <li>1000 Hz</li>
+          <li>126 x 57 x 40 mm</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="https://rog.asus.com/privacy-policy">Privacy</a></li>
+        <li><a href="https://rog.asus.com/us/terms-of-notice/official-site/">Terms</a></li>
+        <li><a href="https://rog.asus.com/forum/sendmessage.php">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, Republic of Gamers</span>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
